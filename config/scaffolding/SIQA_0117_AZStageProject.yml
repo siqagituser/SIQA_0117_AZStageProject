@@ -11,34 +11,14 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.siqa_0117_azstage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
-  packages:
-  - name: SIQA_0117_AZStageProject
-    version: "1.0"
-- serviceName: project.siqa_0117_azstage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
-  packages:
-  - name: SIQA_0117_AZStageProject
-    version: "1.0"
 - serviceName: project.siqa_0117_azstage.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_0117_AZStageProject
     version: "1.0"
-- serviceName: project.siqa_0117_azstage.integrations:deepclonetest
+- serviceName: project.siqa_0117_azstage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:testAZStage0117
   packages:
   - name: SIQA_0117_AZStageProject
     version: "1.0"
-- serviceName: pub.string:stringToBytes
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.1
-- serviceName: pub.utils:deepClone
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.1
-- serviceName: pub.string:bytesToString
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.1
 configurationVariables:
   ? artConnection.SIQA_0117_AZStageProject.project.siqa_0117_azstage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
   : ""
